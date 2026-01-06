@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Universality Mental Health Clinic | Maryland</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+            },
+            colors: {
+              primary: {
+                50: '#f8f4fc',
+                100: '#f1e8f9',
+                200: '#e4d0f2',
+                500: '#8b4bbF', 
+                600: '#6a2b85', // Logo Purple
+                700: '#5a2372',
+                800: '#4a1d5e',
+                900: '#3a174a',
+              },
+              secondary: {
+                50: '#fdf2f8',
+                100: '#fce7f3',
+                500: '#e85d9e', // Logo Pink
+                600: '#d63384',
+              },
+              neutral: {
+                800: '#1e293b',
+                600: '#475569',
+              }
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      /* Smooth scrolling for anchor links */
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react-router-dom": "https://esm.sh/react-router-dom@^7.11.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "lucide-react": "https://esm.sh/lucide-react@^0.562.0",
+    "leaflet": "https://esm.sh/leaflet@1.9.4",
+    "@google/genai": "https://esm.sh/@google/genai@^1.34.0",
+    "react-markdown": "https://esm.sh/react-markdown@^10.1.0"
+  }
+}
+</script>
+</head>
+  <body class="bg-slate-50 text-slate-800 antialiased selection:bg-secondary-100 selection:text-secondary-600 bg-fixed bg-[radial-gradient(at_0%_0%,_#f1e8f9_0px,_transparent_50%),_radial-gradient(at_100%_0%,_#fce7f3_0px,_transparent_50%),_radial-gradient(at_100%_100%,_#e4d0f2_0px,_transparent_50%),_radial-gradient(at_0%_100%,_#fce7f3_0px,_transparent_50%)]">
+    <div id="root"></div>
+  </body>
+</html>
